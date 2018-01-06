@@ -42,28 +42,28 @@
             android:layout_height="@dimen/activity_text_view_height"
             android:id="@+id/tours_text_view"
             android:textAlignment="center"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="@dimen/spaces"
             android:background="@color/colorWelcomeTextView1"
             android:textSize="@dimen/activity_main_welcome"
-            android:text="Tours" />
+            android:text="@string/tours" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="@dimen/activity_text_view_height"
             android:textAlignment="center"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="@dimen/spaces"
             android:id="@+id/transportation_text_view"
             android:background="@color/colorWelcomeTextView2"
             android:textSize="@dimen/activity_main_welcome"
-            android:text="Transportation" />
+            android:text="@string/transportation" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="@dimen/activity_text_view_height"
             android:textAlignment="center"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="@dimen/spaces"
             android:id="@+id/why_egypt_text_view"
             android:background="@color/colorWelcomeTextView3"
             android:textSize="@dimen/activity_main_welcome"
-            android:text="Why Egypt" />
+            android:text="@string/whyegypt" />
 
     </LinearLayout>
 

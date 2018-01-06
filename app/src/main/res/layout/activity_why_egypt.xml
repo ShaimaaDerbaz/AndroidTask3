@@ -5,49 +5,49 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/spaces"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/spaces"
     tools:context="com.example.shaimaaderbaz.tourguide.Activities.WhyEgyptActivity">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="@dimen/spaces"
         android:fontFamily="cursive"
-        android:textSize="26sp"
-        android:text="good Climate"
+        android:textSize="@dimen/reasons_text_size"
+        android:text="@string/good_climate"
         android:textColor="@color/colorWelcomeTextView3"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="@dimen/spaces"
         android:fontFamily="cursive"
-        android:textSize="26sp"
-        android:text="Delicious Egyptian Cuisine"/>
+        android:textSize="@dimen/reasons_text_size"
+        android:text="@string/egyptian_food"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="@dimen/spaces"
         android:fontFamily="cursive"
-        android:textSize="26sp"
-        android:text="Relax and Cruise the Nile River."
+        android:textSize="@dimen/reasons_text_size"
+        android:text="@string/nile_relax"
         android:textColor="@color/colorWelcomeTextView3"
         />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="@dimen/spaces"
         android:fontFamily="cursive"
-        android:textSize="26sp"
-        android:text="Temples, Temples and More Temples."/>
+        android:textSize="@dimen/reasons_text_size"
+        android:text="@string/temples"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="@dimen/spaces"
         android:fontFamily="cursive"
-        android:textSize="26sp"
-        android:text="Mix and Mingle with Friendly Locals"
+        android:textSize="@dimen/reasons_text_size"
+        android:text="@string/friendly_locals"
         android:textColor="@color/colorWelcomeTextView3"/>
 
 

@@ -4,4 +4,6 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="activity_main_welcome">36sp</dimen>
     <dimen name="activity_text_view_height">65dp</dimen>
+    <dimen name="spaces">16dp</dimen>
+    <dimen name="reasons_text_size">26sp</dimen>
 </resources>

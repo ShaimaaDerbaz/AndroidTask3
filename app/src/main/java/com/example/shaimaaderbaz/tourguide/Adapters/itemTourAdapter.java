@@ -18,9 +18,9 @@ import java.util.ArrayList;
  * Created by Shaimaa Derbaz on 1/3/2018.
  */
 
-public class itemTourAdapter extends ArrayAdapter<itemTour> {
+public class ItemTourAdapter extends ArrayAdapter<itemTour> {
 
-    public itemTourAdapter(Activity context, ArrayList<itemTour> images) {
+    public ItemTourAdapter(Activity context, ArrayList<itemTour> images) {
 
         super(context, 0, images);
 
