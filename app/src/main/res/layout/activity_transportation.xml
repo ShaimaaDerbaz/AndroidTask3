@@ -18,7 +18,7 @@
         android:layout_marginTop="@dimen/spaces"
         android:background="@color/colorWelcomeTextView1"
         android:textSize="@dimen/activity_main_welcome"
-        android:text="Airplanes" />
+        android:text="@string/airplanes" />
 
     <TextView
         android:layout_width="match_parent"
@@ -28,7 +28,7 @@
         android:id="@+id/buses_text_view"
         android:background="@color/colorWelcomeTextView3"
         android:textSize="@dimen/activity_main_welcome"
-        android:text="Buses" />
+        android:text="@string/buses2" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="@dimen/activity_text_view_height"
@@ -37,7 +37,7 @@
         android:id="@+id/trains_text_view"
         android:background="@color/colorWelcomeTextView1"
         android:textSize="@dimen/activity_main_welcome"
-        android:text="Trains" />
+        android:text="@string/trains2" />
 
 
 </LinearLayout>

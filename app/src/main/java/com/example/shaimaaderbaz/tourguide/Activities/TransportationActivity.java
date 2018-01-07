@@ -15,15 +15,13 @@ public class TransportationActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_transportation);
-        String d="https://www.travelstart.com.eg/";
 
         TextView airplanesTextView =(TextView)findViewById(R.id.airplanes_text_view);
         airplanesTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Uri uriUrl = Uri.parse("https://www.travelstart.com.eg/");
+                Uri uriUrl = Uri.parse(getString(R.string.airplane));
                 Intent i = new Intent(Intent.ACTION_VIEW, uriUrl);
-                //Intent i =new Intent(TransportationActivity.this,uriUrl);
                 startActivity(i);
 
             }
@@ -32,7 +30,7 @@ public class TransportationActivity extends AppCompatActivity {
         busesTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Uri uriUrl = Uri.parse("https://go-bus.com/en");
+                Uri uriUrl = Uri.parse(getString(R.string.buses));
                 Intent i = new Intent(Intent.ACTION_VIEW, uriUrl);
                 startActivity(i);
 
@@ -43,7 +41,7 @@ public class TransportationActivity extends AppCompatActivity {
         trainsTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Uri uriUrl = Uri.parse("https://enr.gov.eg/ticketing/public/login.jsf");
+                Uri uriUrl = Uri.parse(getString(R.string.trains));
                 Intent i = new Intent(Intent.ACTION_VIEW, uriUrl);
                 startActivity(i);
 

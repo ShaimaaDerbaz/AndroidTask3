@@ -4,16 +4,16 @@ package com.example.shaimaaderbaz.tourguide;
  * Created by Shaimaa Derbaz on 1/3/2018.
  */
 
-public class itemTour {
+public class ItemTour {
     String itemName;
     String itemAbout;
     int imageId;
 
-    public itemTour()
+    public ItemTour()
     {
 
     }
-    public itemTour(String itemName, String itemAbout, int imageId) {
+    public ItemTour(String itemName, String itemAbout, int imageId) {
         this.itemName = itemName;
         this.itemAbout = itemAbout;
         this.imageId = imageId;

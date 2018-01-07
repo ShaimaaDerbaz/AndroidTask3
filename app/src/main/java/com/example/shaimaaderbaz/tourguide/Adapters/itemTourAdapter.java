@@ -1,7 +1,6 @@
 package com.example.shaimaaderbaz.tourguide.Adapters;
 
 import android.app.Activity;
-import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,7 +9,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.shaimaaderbaz.tourguide.R;
-import com.example.shaimaaderbaz.tourguide.itemTour;
+import com.example.shaimaaderbaz.tourguide.ItemTour;
 
 import java.util.ArrayList;
 
@@ -18,9 +17,9 @@ import java.util.ArrayList;
  * Created by Shaimaa Derbaz on 1/3/2018.
  */
 
-public class ItemTourAdapter extends ArrayAdapter<itemTour> {
+public class ItemTourAdapter extends ArrayAdapter<ItemTour> {
 
-    public ItemTourAdapter(Activity context, ArrayList<itemTour> images) {
+    public ItemTourAdapter(Activity context, ArrayList<ItemTour> images) {
 
         super(context, 0, images);
 
@@ -34,7 +33,7 @@ public class ItemTourAdapter extends ArrayAdapter<itemTour> {
                     getContext()).inflate(R.layout.item_list, null, false);
 
         }
-        itemTour currentItem = getItem(position);
+        ItemTour currentItem = getItem(position);
         TextView nameItemTextView=(TextView)listItemView.findViewById(R.id.item_name_text_view);
         nameItemTextView.setText(currentItem.getItemName());
         TextView aboutItemTextView = (TextView) listItemView.findViewById(R.id.item_about_text_view);

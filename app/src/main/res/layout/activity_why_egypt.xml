@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_why_egypt"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/spaces"
@@ -10,47 +9,9 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/spaces"
     tools:context="com.example.shaimaaderbaz.tourguide.Activities.WhyEgyptActivity">
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/spaces"
-        android:fontFamily="cursive"
-        android:textSize="@dimen/reasons_text_size"
-        android:text="@string/good_climate"
-        android:textColor="@color/colorWelcomeTextView3"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/spaces"
-        android:fontFamily="cursive"
-        android:textSize="@dimen/reasons_text_size"
-        android:text="@string/egyptian_food"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/spaces"
-        android:fontFamily="cursive"
-        android:textSize="@dimen/reasons_text_size"
-        android:text="@string/nile_relax"
-        android:textColor="@color/colorWelcomeTextView3"
-        />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/spaces"
-        android:fontFamily="cursive"
-        android:textSize="@dimen/reasons_text_size"
-        android:text="@string/temples"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/spaces"
-        android:fontFamily="cursive"
-        android:textSize="@dimen/reasons_text_size"
-        android:text="@string/friendly_locals"
-        android:textColor="@color/colorWelcomeTextView3"/>
 
 
 
 
-</LinearLayout>
+
+</ListView>

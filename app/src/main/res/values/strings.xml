@@ -57,4 +57,15 @@
     <string name="nile_relax">Relax and Cruise the Nile River.</string>
     <string name="temples">Temples, Temples and More Temples.</string>
     <string name="friendly_locals">Mix and Mingle with Friendly Locals</string>
+    <string name="airplane">https://www.travelstart.com.eg/</string>
+    <string name="buses">https://go-bus.com/en</string>
+    <string name="trains">https://enr.gov.eg/ticketing/public/login.jsf</string>
+    <string name="airplanes">Airplanes</string>
+    <string name="buses2">Buses</string>
+    <string name="trains2">Trains</string>
+    <string name="reason1">Reason 1</string>
+    <string name="reason2">Reason 2</string>
+    <string name="reason3">Reason 3</string>
+    <string name="reason4">Reason 4</string>
+    <string name="reason5">Reason 5</string>
 </resources>
